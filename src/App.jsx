@@ -1,14 +1,20 @@
 import React from "react"
 
-import Header from "./components/Header";
-import HeroSection from "./components/HeroSection";
+import {BrowserRouter as Router,Routes,Route} from "react-router-dom"  
+
+import Index from "./pages/Index";
 function App() {
   
 
   return (
     <>
-     <Header />
-     <HeroSection />
+    <Router>
+      <Routes>
+        <Route path="/" element={<Index />} />
+        <Route />
+        <Route />
+      </Routes>
+    </Router>
      
     </> 
   )
