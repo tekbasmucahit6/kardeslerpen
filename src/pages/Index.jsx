@@ -3,6 +3,7 @@ import Connection from '../components/Connection'
 import HeroSection from '../components/HeroSection'
 import Header from '../components/Header'
 import Quality from '../components/Quality'
+import Service from '../components/Service'
 
 function Index() {
   return (
@@ -10,6 +11,7 @@ function Index() {
         <Header />
         <HeroSection />
         <Connection />
+        <Service />
         <Quality />
     </>
   )

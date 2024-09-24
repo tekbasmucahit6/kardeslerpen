@@ -12,7 +12,7 @@ function Header() {
         <div className="xl:flex md:flex hidden justify-center items-center gap-4">
             <button className='bg-green-500  px-3 py-2 shadow-lg text-white rounded'>iletişime geç</button>
             <i className='text-white hover:text-red-600 hover:cursor-pointer'>+90(545) 619 1982</i>
-            <div className='p-4 rounded-full text-3xl text-white hover:bg-white p-3 rounded-full hover:cursor-pointer hover:text-pink-600'>
+            <div className='text-3xl text-white hover:bg-white p-3 rounded-full hover:cursor-pointer hover:text-pink-600'>
                 <FaInstagram />
             </div>
         </div>
