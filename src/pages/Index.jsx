@@ -4,6 +4,7 @@ import HeroSection from '../components/HeroSection'
 import Header from '../components/Header'
 import Quality from '../components/Quality'
 import Service from '../components/Service'
+import Footer from '../components/Footer'
 
 function Index() {
   return (
@@ -13,6 +14,7 @@ function Index() {
         <Connection />
         <Service />
         <Quality />
+        <Footer />
     </>
   )
 }
