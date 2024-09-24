@@ -1,10 +1,11 @@
 import React from 'react'
 import Connection from '../components/Connection'
 import HeroSection from '../components/HeroSection'
-import Header from '../components/Header'
+import Header from '../basicComponents/Header'
 import Quality from '../components/Quality'
 import Service from '../components/Service'
-import Footer from '../components/Footer'
+import Footer from '../basicComponents/Footer'
+import Workers from '../components/Workers'
 
 function Index() {
   return (
@@ -14,6 +15,7 @@ function Index() {
         <Connection />
         <Service />
         <Quality />
+        <Workers />
         <Footer />
     </>
   )
