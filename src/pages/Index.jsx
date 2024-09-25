@@ -6,12 +6,14 @@ import Quality from '../components/Quality'
 import Service from '../components/Service'
 import Footer from '../basicComponents/Footer'
 import Workers from '../components/Workers'
+import Firmas from '../components/Firmas'
 
 function Index() {
   return (
     <>
         <Header />
         <HeroSection />
+        <Firmas />
         <Connection />
         <Service />
         <Quality />
