@@ -7,6 +7,7 @@ import Service from '../components/Service'
 import Footer from '../basicComponents/Footer'
 import Workers from '../components/Workers'
 import Firmas from '../components/Firmas'
+import Powered from '../components/Powered'
 
 function Index() {
   return (
@@ -19,6 +20,7 @@ function Index() {
         <Quality />
         <Workers />
         <Footer />
+        <Powered />
     </>
   )
 }
