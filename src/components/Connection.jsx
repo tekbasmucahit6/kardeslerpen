@@ -11,7 +11,7 @@ function Connection() {
             </div>
         </a>
 
-        <a href="">
+        <a href="https://wa.me/905456191982" target='_blank'>
             <div className='flex justify-center items-center bg-green-500 hover:bg-green-600 p-5 rounded-full'>
                 <IoLogoWhatsapp className='text-white' />
             </div>
