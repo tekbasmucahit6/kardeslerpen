@@ -17,7 +17,7 @@ function Footer() {
           <div className='flex flex-col justify-start items-center text-white gap-3'>
             <strong className='border-b-2 border-white pb-2 text-xl w-full'>SOCİAL MEDİA</strong>
             <div className='text-white'>
-              <a href="" className='flex justify-center items-center gap-10 hover:cursor-pointer hover:text-pink-600'>
+              <a href="https://www.instagram.com/kardeslerpen_/" className='flex justify-center items-center gap-10 hover:cursor-pointer hover:text-pink-600'>
                 <FaInstagram className='text-3xl' />
                 <p>  instagram </p>
               </a>
