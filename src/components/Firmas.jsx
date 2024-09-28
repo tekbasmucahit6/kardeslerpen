@@ -4,13 +4,13 @@ function Firmas() {
   return (
     <div className='flex flex-col justify-center items-center gap-10 mt-24 mb-24'>
         <strong>TEDARİKCİ FİRMALAR</strong>
-        <div className='grid grid-cols-2 xl:grid-cols-3 lg:grid-cols-3 gap-14'>
-            <i className='bg-blue-700 hover:bg-amber-500 p-5 text-center cursor-pointer text-white border rounded hover:scale-110 transition-all'>Adopen</i>
-            <i className='bg-blue-700 hover:bg-amber-500 p-5 text-center cursor-pointer text-white border rounded hover:scale-110 transition-all'>Adokapı</i>
-            <i className='bg-blue-700 hover:bg-amber-500 p-5 text-center cursor-pointer text-white border rounded hover:scale-110 transition-all'>Adoplaswin</i>
-            <i className='bg-blue-700 hover:bg-amber-500 p-5 text-center cursor-pointer text-white border rounded hover:scale-110 transition-all'>Penwood</i>
-            <i className='bg-blue-700 hover:bg-amber-500 p-5 text-center cursor-pointer text-white border rounded hover:scale-110 transition-all'>Accado</i>
-            <i className='bg-blue-700 hover:bg-amber-500 p-5 text-center cursor-pointer text-white border rounded hover:scale-110 transition-all'>Geviss</i>
+        <div className='flex flex-col xl:flex-row lg:flex-row md:flex-row gap-14 justify-center items-center'>
+          <img src="../public/businneslogo/adopen.png" className='w-48 hover:border-2 hover:border-blue-950 hover:p-2 hover:rounded-xl transition-all' alt="" />
+          <img src="../public/businneslogo/adokapi.png" className='w-48 hover:border-2 hover:border-blue-950 hover:p-2 hover:rounded-xl transition-all' alt="" />
+          <img src="../public/businneslogo/accado.png" className='w-48 hover:border-2 hover:border-blue-950 hover:p-2 hover:rounded-xl transition-all' alt="" />
+          <img src="../public/businneslogo/adoplas.png" className='w-48 hover:border-2 hover:border-blue-950 hover:p-2 hover:rounded-xl transition-all' alt="" />
+          <img src="../public/businneslogo/adowood.png" className='w-48 hover:border-2 hover:border-blue-950 hover:p-2 hover:rounded-xl transition-all' alt="" />
+          <img src="../public/businneslogo/geviss.png" className='w-48 hover:border-2 hover:border-blue-950 hover:p-2 hover:rounded-xl transition-all' alt="" />
         </div>
     </div>
   )
