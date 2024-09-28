@@ -10,10 +10,10 @@ function HeroSection() {
             <i className=''>Kardeşler Pen: Uzun Ömürlü, Şık ve Yüksek Performanslı Pencere Çözümleri!</i>
             <div className='flex flex-col xl:flex-row lg:flex-row md:flex-row justify-center items-center gap-10'>
               <a href="tel:05456191982">  
-                <button className='px-6 py-2 border border-green-500 text-green-500 hover:text-white hover:bg-green-600 hover:shadow-xl rounded-xl transition-all'>iletişime geç</button>
+                <button className='px-6 py-2 text-white bg-green-600 hover:bg-green-700 rounded-xl'>iletişime geç</button>
               </a>
               <Link to={"/gallery"}>
-                <button className='px-6 py-2 border border-blue-600 text-blue-700 hover:text-white hover:bg-blue-700 hover:shadow-xl rounded-xl transition-all'>galeri</button>
+                <button className='px-6 py-2 text-white bg-blue-700 hover:bg-blue-800 rounded-xl'>galeri</button>
               </Link>
             </div>
 

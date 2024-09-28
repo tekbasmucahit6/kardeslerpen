@@ -4,7 +4,7 @@ function Workers() {
   return (
     <div className='grid grid-rows-2 xl:grid-cols-2 xl:grid-rows-none lg:grid-cols-2 lg:grid-rows-none md:grid-cols-2 md:grid-rows-none gap-10 mt-16 mb-16 p-4'>
         <div className='flex justify-center items-center'>
-            <img src="../img/resim5.jpg" className='w-80 border-2 shadow-xl rounded-xl' alt="" />
+            <img src="../img/resim25.jpg" className='w-80 border-2 shadow-xl rounded-xl' alt="" />
         </div>
         <div className='flex flex-col justify-center items-center gap-10 text-center'>
             <h1>kardeşler pen&cam kalitesi</h1>

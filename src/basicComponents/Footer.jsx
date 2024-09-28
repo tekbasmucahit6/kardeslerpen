@@ -1,10 +1,11 @@
 import React from 'react'
 import Logo from './Logo'
 import { FaInstagram } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 function Footer() {
   return (
-    <div className='bg-blue-900 p-5'>
+    <div className='bg-blue-950 p-5'>
         <div className='grid grid-rows xl:grid-cols-3 xl:grid-rows-none lg:grid-cols-3 lg:grid-rows-none md:grid-cols-2 md:grid-rows-none gap-10'>
           
           <div className='flex flex-col justify-start items-start text-white gap-3'>
@@ -22,6 +23,13 @@ function Footer() {
                 <p>  instagram </p>
               </a>
             </div>
+
+            <div className='text-white'>
+              <a href="https://www.facebook.com/profile.php?id=61566362466660&mibextid=LQQJ4d&rdid=irtbBLCw5q0RPL9j&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FBJG5RL3RiGqpwKLU%2F%3Fmibextid%3DLQQJ4d" className='flex justify-center items-center gap-10 hover:cursor-pointer hover:text-blue-600'>
+                <FaFacebook className='text-3xl' />
+                <p>  facebook </p>
+              </a>
+            </div>
            
           </div>
 
@@ -37,6 +45,10 @@ function Footer() {
 
 
         </div>
+        <div className='flex justify-center items-center mb-24'>
+
+        </div>
+        <hr />
     </div>
   )
 }

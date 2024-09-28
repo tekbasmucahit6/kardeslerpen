@@ -7,18 +7,22 @@ import Service from '../components/Service'
 import Footer from '../basicComponents/Footer'
 import Workers from '../components/Workers'
 import Firmas from '../components/Firmas'
-import Powered from '../components/Powered'
+import Powered from '../basicComponents/Powered'
+import Product from '../components/Product'
+import Productİnfo from '../components/Productİnfo'
 
 function Index() {
   return (
     <>
         <Header />
         <HeroSection />
+        <Workers />
         <Firmas />
         <Connection />
         <Service />
+        <Product />
         <Quality />
-        <Workers />
+        <Productİnfo />
         <Footer />
         <Powered />
     </>

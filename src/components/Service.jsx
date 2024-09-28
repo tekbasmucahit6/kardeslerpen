@@ -3,8 +3,8 @@ import { GiConfirmed } from "react-icons/gi";
 
 function Service() {
   return (
-    <div className='flex flex-col justify-center items-center mt-16 mb-16'>
-        <h1>HİZMETLERİMİZ</h1>
+    <div className='flex flex-col justify-center items-center mt-24 mb-24'>
+        <strong>HİZMETLERİMİZ</strong>
         <div className='grid grid-rows-2 w-full xl:grid-cols-2 xl:grid-rows-none lg:grid-cols-2 lg:grid-rows-none md:grid-cols-2 md:grid-rows-none justify-center items-center xl:gap-16 lg:gap-16 md:gap-16 gap-5 mt-10'>
 
             <div className='flex flex-col justify-center items-start gap-6 xl:ml-60 lg:ml-32 md:ml-20'>
