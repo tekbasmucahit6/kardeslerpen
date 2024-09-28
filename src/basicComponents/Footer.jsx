@@ -16,19 +16,24 @@ function Footer() {
           </div>
 
           <div className='flex flex-col justify-start items-center text-white gap-3'>
-            <strong className='border-b-2 border-white pb-2 text-xl w-full'>SOCİAL MEDİA</strong>
-            <div className='text-white'>
-              <a href="https://www.instagram.com/kardeslerpen_/" className='flex justify-center items-center gap-10 hover:cursor-pointer hover:text-pink-600'>
-                <FaInstagram className='text-3xl' />
-                <p>  instagram </p>
-              </a>
-            </div>
 
-            <div className='text-white'>
-              <a href="https://www.facebook.com/profile.php?id=61566362466660&mibextid=LQQJ4d&rdid=irtbBLCw5q0RPL9j&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FBJG5RL3RiGqpwKLU%2F%3Fmibextid%3DLQQJ4d" className='flex justify-center items-center gap-10 hover:cursor-pointer hover:text-blue-600'>
-                <FaFacebook className='text-3xl' />
-                <p>  facebook </p>
-              </a>
+            <strong className='border-b-2 border-white pb-2 text-xl w-full'>SOCİAL MEDİA</strong>
+
+
+            <div className='flex flex-col justify-center items-start gap-5'>
+              <div className='text-white flex justify-center items-center'>
+                <a href="https://www.instagram.com/kardeslerpen_/" className='flex justify-center items-center gap-10 hover:cursor-pointer hover:text-pink-600'>
+                  <FaInstagram className='text-3xl' />
+                  <p>instagram</p>
+                </a>
+              </div>
+
+              <div className='text-white flex justify-center items-center'>
+                <a href="https://www.facebook.com/profile.php?id=61566362466660&mibextid=LQQJ4d&rdid=irtbBLCw5q0RPL9j&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FBJG5RL3RiGqpwKLU%2F%3Fmibextid%3DLQQJ4d" className='flex justify-center items-center gap-10 hover:cursor-pointer hover:text-blue-600'>
+                  <FaFacebook className='text-3xl' />
+                  <p>facebook</p>
+                </a>
+              </div>
             </div>
            
           </div>
@@ -48,7 +53,7 @@ function Footer() {
         <div className='flex justify-center items-center mb-24'>
 
         </div>
-        <hr />
+          <hr />
     </div>
   )
 }
